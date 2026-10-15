@@ -2,6 +2,7 @@
 A standalone GPS display device for your car or portable radio operation
 Ideal for POTA/SOTA/145Alive etc..
 
+
 You will require:
 1 x Arduino (ATMEGA328)
 1 x uBlox Neo-6 GPS Receiver (or any GPS Receiver that outputs NMEA Sentences on UART)
@@ -16,19 +17,18 @@ Connect the LCD Display to the Arduino:
 
 Display         Arduino
 
-GND             GND on Arduino
-VCC             5V
-SDA             SDA
-SDL             SDL
-
+GND.............GND on Arduino
+VCC.............5V
+SDA.............SDA
+SDL.............SDL
 
 Connect the GPS Receiver
 
-GPS Pin         Arduino Pin
-VCC             3V3
-RX              Leave Disconnected
-TX              4 (Fifth pin in)
-GND             GND
+GPS Pin.........Arduino Pin
+VCC.............3V3
+RX..............Leave Disconnected
+TX..............4 (Fifth pin in)
+GND.............GND
 
 Program the Arduino.
 Reboot Arduino
